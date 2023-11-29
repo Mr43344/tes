@@ -1,0 +1,149 @@
+.jumbotron {
+    padding-top: 5rem;
+   
+    background-color: #c8e1f0;
+}
+
+.navbar {
+  background: linear-gradient(45deg, #0dcaf3, rgba(146, 218, 240, 0.733));
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#projects{
+    background-color: #63b8ec;
+}
+#projects>.container>.row>.col>h2{
+margin-bottom: 50px;
+}
+.col-lg-6 img {
+width: 400px;
+}
+section{
+    padding-top: 5rem;
+}
+
+svg {
+    margin-bottom: -3px;
+    margin-top: -3px;
+}
+.swiper {
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 90%;
+  }
+.col-lg-6 {
+    margin-top: 100px;
+}
+#contact>.container{
+    border-radius: 30px ;
+    padding: 10px;
+}
+.col-sm{
+margin-bottom: 40px;
+}
+
+#footer{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    position: relative;
+    top: 60%;
+    transform: translateY(-70%);
+    width: 100%;
+    text-align: center;
+}
+.tombol{
+    display: inline-block;
+    width: 45px;
+    /* height: 45px; */
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 40%;
+    box-sizing: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #3498db;
+    padding-top: 12px;
+    padding-bottom: 6px;
+
+    
+}
+.tombol i{
+    transition: 0.2s linear;
+    font-size: 26px;
+    line-height: 10px;
+}
+.tombol:hover i{
+   transform: scale(1.3);
+   font-size:#f1f1f1 ;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  background: #e5e5e5;
+  box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+}
+.input {
+  position: absolute;
+  opacity: 0;
+}
+.label {
+  width: 100%;
+  padding: 20px 30px;
+  background: #e5e5e5;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  color: #7f7f7f;
+  transition: background 0.1s, color 0.1s;
+}
+.label:hover {
+  background: #d8d8d8;
+}
+.label:active {
+  background: #ccc;
+}
+.input:focus + .label {
+  z-index: 1;
+}
+.input:checked + .label {
+  background: #fff;
+  color: #000;
+}
+@media (min-width: 600px) {
+  .label {
+    width: auto;
+  }
+}
+.panel {
+  display: none;
+  padding: 20px 30px 30px;
+  background: #fff;
+}
+@media (min-width: 600px) {
+  .panel {
+    order: 99;
+  }
+}
+.input:checked + .label + .panel {
+  display: block;
+}
+.progress{
+  margin-top: 25px;
+}
+
